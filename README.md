@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mokritsa.github.io/rsschool-cv/cv
