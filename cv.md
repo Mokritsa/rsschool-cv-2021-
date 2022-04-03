@@ -5,7 +5,7 @@
 ## Contacts
 
 * e-mail: mokritsa@bk.ru
-* GitHub: https://github.com/Mokritsa
+* GitHub: [GitHub](https://github.com/Mokritsa "github.com/Mokritsa")
 * Mobile: +375298319164
 
 ## About me
