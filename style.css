@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+ul{
+  padding-inline-start: 0;
+}
+.container {
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.header-link{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav{
+  box-shadow: 0 1px 1px 1px #413535;
+}
+.main{
+  box-shadow: 0 1px 1px 1px #413535;
+}
+.main-profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-profile-photo {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 10% 30% 50% 70%;
+    margin: 10px;
+    box-shadow: 0 1px 1px 1px #413535;
+  }
+  .main-profile-photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+  }
+  .main-about-skills{
+    display: flex;
+    flex-direction: row;
+  }
+  .main-about{
+    width: 72%;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .main-code{
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .main-english{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+  }
+  .footer{
+    display: flex;
+	  justify-content: space-around;
+	  align-items: center;
+    flex-direction: row;
+    height: 70px;
+    box-shadow: 0 1px 1px 1px #413535;
+  }
+.footer-list{
+    width: 100px;
+}
+  .footer-rs-logo{
+    width: 50px;
+    height: 50px;
+    background: url("./assets/img/rs_logo.svg") no-repeat center center;
+    display: inline-block;
+    background-size: contain;
+  }
+  .footer-gh-logo{
+    width: 50px;
+    height: 50px;
+    background: url("./assets/img/gh-logo.png") no-repeat center center;
+    display: inline-block;
+    background-size: contain;
+  }
+
