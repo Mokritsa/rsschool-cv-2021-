@@ -48,7 +48,6 @@ function bingo(ticket, win){
 
 ## Study projects
 
-* [JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)](https://app.rs.school/certificate/dhy0ywhc "Certificate")
 * [Portfolio](https://mokritsa.github.io/portfolio/ "Photographer's portfolio")
 * [Mini Game](https://mokritsa.github.io/snake-game/ "Snake")
 
