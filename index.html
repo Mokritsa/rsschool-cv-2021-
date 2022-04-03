@@ -1,0 +1,118 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/icon.png">
+  <title>Mokritsa Nick - Junior Front-End Developer</title>
+</head>
+
+<body><header>
+  <div class="container">
+      <nav class="nav">
+      <ul class="header-link">
+        <li>
+          <a href="#Contacts">Contacts</a>
+        </li>
+        <li>
+          <a href="#About_me">About me</a>
+        </li>
+        <li>
+          <a href="#Skills">Skills</a>
+        </li>
+        <li>
+          <a href="#Cod_example">Cod example</a>
+        </li>
+        <li>
+          <a href="#English">English</a>
+        </li>
+      </ul>
+    </nav> 
+  </div>
+</header>
+
+<main>
+  <div class="container main">
+    <div class="main-profile">
+      <div class="main-profile-photo">
+        <img src="./assets/img/me2.png" alt="my avatar" class="main-profile-photo-img">&gt;
+      </div>
+      <div>
+          <h1>Mokritsa Nick</h1>
+          <h2>Junior Front-End Developer</h2>
+      </div>
+      <div id="Contacts">
+        <ul>
+          <li>e-mail: mokritsa@bk.ru</li>
+          <li>GitHub: <a target="_blank" href="https://github.com/Mokritsa">Mokritsa</a></li>
+          <li>Mobile: +375298319164</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-about-skills">
+      <div id="About_me" class="main-about">
+        <h2>About me</h2>
+        <h3>I am sociable, have experience in personnel management. My hobbies are dancing and swimming.
+            Graduate of the Belarusian State University of Transport Electrical Engineering Faculty. 
+            Сonstantly strive to improve my professional level.</h3>
+        <h3>My motto - "No limit to perfection"</h3>
+      </div>
+      <div id="Skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript (Basic)</li>
+          <li>Git</li>
+          <li>Processing</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="Cod_example" class="main-code">
+      <h2>Cod example</h2>
+      <pre>          <code>
+        function bingo(ticket, win){
+          let winner = 0;
+          for(let arr of ticket){
+            str = arr[0];
+            let winChar = '';
+            str.split('').map(x =>{
+              if(x == String.fromCharCode(arr[1])){
+                if(winChar != x){
+                  winChar = x;
+                  winner++;
+                }
+              }
+            })
+          }
+            if(winner >= win)
+              return 'Winner!';
+            else
+              return 'Loser!';  
+        }
+        </code>
+      </pre>
+    </div>
+    <div id="English" class="main-english">
+      <h1>English</h1>
+      <h2>A1 (Beginner)</h2>
+    </div>       
+  </div>
+</main>
+
+<footer id="footer">
+  <div class="container footer">  
+      <div class="footer-list">
+          <a target="_blank" href="https://github.com/Mokritsa" class="footer-gh-logo"></a>
+      </div>
+      <div class="footer-list">
+          <a target="_blank" href="https://rs.school/js-stage0/" class="footer-rs-logo"></a>
+      </div>
+      <div class="footer-list">2021</div>        
+  </div>  
+</footer>
+
+
+</body></html>
